@@ -6,7 +6,7 @@
 		"text":{
 			"home":"Quote Home",
 			"studies":"Study, not to know more, but to know better",
-			"projects":"Quote Projects",
+			"projects":"Trust is a key.Without it, no project is successful",
 			"internship":"Quote Internship",
 			"scoutism":"Quote Scoutism",
 			"contact":"Quote Contact",
@@ -15,7 +15,7 @@
 		"author":{
 			"home":"Author Home",
 			"studies":"Sénèque",
-			"projects":"Author Projects",
+			"projects":"Eric Tabarly",
 			"internship":"Author Internship",
 			"scoutism":"Author Scoutism",
 			"contact":"Author Contact",
@@ -37,7 +37,12 @@
 		},
 		"internship":{
 			"title":"Internship",
-			"content":""
+			"content":{
+				"edilogic":{
+					"title":"Windev developer at Edilogic",
+					"content":"For my first internship, I worked for Edilogic, a small business company that sell accountant software.<br/>I used Windev16 and I developed plugins and features for their main product."
+				}
+			}
 		},
 		"scoutism":{
 			"title":"Scoutism",
