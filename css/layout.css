@@ -1,0 +1,136 @@
+@-webkit-keyframes fadeIn {
+	0% { opacity: 0; }
+	20% { opacity: 0; }
+	40% { opacity: 0.3; }
+	60% { opacity: 0.5; }
+	80% { opacity: 0.9; }
+	100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	20% { opacity: 0; }
+	40% { opacity: 0.3; }
+	60% { opacity: 0.5; }
+	80% { opacity: 0.9; }
+	100% { opacity: 1; }
+}
+
+body{
+	height: 100%;
+	overflow-y: hidden;
+	background-image: url("../img/apple-modif.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-position: right top;
+	background-size: cover; /* version standardisée */
+	-webkit-transition: 1s ease-out;
+	-moz-transition: 1s ease-out;
+	-o-transition: 1s ease-out;
+	transition: 1s ease-out;
+}
+
+div.container-fluid > div.row:not(#waiter){
+	display:none;
+}
+
+div.header > h3{
+	display:none;
+}
+
+div.header > h3.active{
+	display:block;
+	-webkit-animation-name: fadeIn;
+	-webkit-animation-duration: 1s;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+}
+
+h1,h2,h3,h4,p{
+	color:white;
+}
+
+h1 small{
+	color:white;
+}
+
+h3{
+	color: white;
+	font-size: 120%;
+	border-right: 5px solid #eeeeee;
+	padding-right:15px;
+	text-align:right;
+}
+
+h3 span.tiret:before,small:before{
+	content: '\2014 \00A0';
+}
+.top-img{
+	min-height:150px;
+	border-bottom: solid 1px white;
+	background-color: rgba(0,0,0, 0.5);
+}
+
+li > a {
+	font-style: italic;
+}
+
+li.active > a{
+	font-style : normal;
+}
+.tab-content{
+	padding:10px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color: rgba(0,0,0, 0.3);
+}
+
+/* Hide for mobile, show later */
+.sidebar {
+	display: none;
+}
+@media (min-width: 768px) {
+	.sidebar {
+		position: fixed;
+		top: 150px;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		padding: 20px;
+		overflow-x: hidden;
+		overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+		background-color: rgba(0,0,0, 0.6);
+		border-right: 1px solid #eee;
+	}
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+	margin-right: -21px; /* 20px padding + 1px border */
+	margin-bottom: 20px;
+	margin-left: -20px;
+}
+.nav-sidebar > li > a {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+	color: black;
+	background-color: #e6e6e6;
+}
+
+.nav-sidebar a:hover{
+	color: black;
+	background-color: #e6e6e6;
+}
+
+.sidebar a{
+	color:white;
+}
+
+img.lang.active {
+    border-bottom: 1px solid white;
+}

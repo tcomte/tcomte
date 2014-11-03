@@ -1,0 +1,55 @@
+{
+	"title" : "Thibaut Comte",
+	"subtitle" : "Computer science student",
+	"optimized" : "Optimized for ",
+	"quotes":{
+		"text":{
+			"home":"Quote Home",
+			"studies":"Study, not to know more, but to know better",
+			"projects":"Quote Projects",
+			"internship":"Quote Internship",
+			"scoutism":"Quote Scoutism",
+			"contact":"Quote Contact",
+			"click":"Quote Click"
+		},
+		"author":{
+			"home":"Author Home",
+			"studies":"Sénèque",
+			"projects":"Author Projects",
+			"internship":"Author Internship",
+			"scoutism":"Author Scoutism",
+			"contact":"Author Contact",
+			"click":"Author Click"
+		}
+	},
+	"tab": {
+		"home": {
+			"title":"Home",
+			"content":""
+		},	
+		"studies":{
+			"title":"Studies",
+			"content":""
+		},
+		"projects":{
+			"title":"Projects",
+			"content":""
+		},
+		"internship":{
+			"title":"Internship",
+			"content":""
+		},
+		"scoutism":{
+			"title":"Scoutism",
+			"content":""
+		},
+		"contact":{
+			"title":"Contact",
+			"content":""
+		},
+		"click":{
+			"title":"Click me",
+			"content":""
+		}
+	}
+}

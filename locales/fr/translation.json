@@ -1,0 +1,55 @@
+{
+	"title" : "Thibaut Comte",
+	"subtitle" : "Étudiant en informatique",
+	"optimized" : "Optimisé pour ",
+	"quotes":{
+		"text":{
+			"home":"Citation Home",
+			"studies":"Étudie, non pour savoir plus, mais pour savoir mieux",
+			"projects":"Citation Projects",
+			"internship":"Citation Internship",
+			"scoutism":"Citation Scoutism",
+			"contact":"Citation Contact",
+			"click":"Citation Click"
+		},
+		"author":{
+			"home":"Auteur Home",
+			"studies":"Sénèque",
+			"projects":"Auteur Projects",
+			"internship":"Auteur Internship",
+			"scoutism":"Auteur Scoutism",
+			"contact":"Auteur Contact",
+			"click":"Auteur Click"
+		}
+	},
+	"tab": {
+		"home": {
+			"title":"Accueil",
+			"content":""
+		},	
+		"studies":{
+			"title":"Études",
+			"content":""
+		},
+		"projects":{
+			"title":"Projets",
+			"content":""
+		},
+		"internship":{
+			"title":"Stages",
+			"content":""
+		},
+		"scoutism":{
+			"title":"Scoutisme",
+			"content":""
+		},
+		"contact":{
+			"title":"Contactez-moi",
+			"content":""
+		},
+		"click":{
+			"title":"Cliquez ici",
+			"content":""
+		}
+	}
+}
