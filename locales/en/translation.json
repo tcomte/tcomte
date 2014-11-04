@@ -39,8 +39,19 @@
 			"title":"Internship",
 			"content":{
 				"edilogic":{
-					"title":"Windev developer at Edilogic",
+					"title":"Windev developer at Edilogic<br/><i><small><a href='https://www.google.fr/maps/place/20+Route+de+Galice,+13100+Aix-en-Provence/@43.528483,5.4319185,17z/data=!3m1!4b1!4m2!3m1!1s0x12c98d0b481e7339:0xa199b902ea720835' target='_blank'>Aix-en-Provence, France</a></small></i>",
+					"date": "may 2012 – jun 2012",
 					"content":"For my first internship, I worked for Edilogic, a small business company that sell accountant software.<br/>I used Windev16 and I developed plugins and features for their main product."
+				},
+				"inria":{
+					"title":"Intern developer at INRIA<br/><i><small><a href='https://www.google.fr/maps/place/INRIA+Sophia+Antipolis+M%C3%A9diterran%C3%A9e/@43.615813,7.06838,17z/data=!3m1!4b1!4m2!3m1!1s0x12cc2b192be4e8cb:0xe656aec13e1ef9b1' target='_blank'>Sophia-Antipolis, France</a></small></i>",
+					"date": "may 2013 – aug 2013",
+					"content":"My second internship took places in WIMMICS team from INRIA. I analyzed and developed the interface of Reador.net website, a RSS aggregator.<br/>Using Agile methods, I developed differents interfaces and interactions. I met clients and users and I participated to a forum in Paris to present Reador.net."
+				},
+				"designal":{
+					"title":"Young software engineer at Designal Systems<br/><i><small><a href='https://www.google.fr/maps/place/Sepalumic/@43.6103261,6.9539584,18z/data=!4m6!1m3!3m2!1s0x12cc284554f022d1:0x9cafb9698346518c!2sParc+d'Activit%C3%A9s+de+l'Argile!3m1!1s0x0000000000000000:0x4f66054e6c8d989c' target='_blank'>Mouans-Sartoux, France</a></small></i>",
+					"date": "sept 2014 – now",
+					"content":""
 				}
 			}
 		},

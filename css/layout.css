@@ -51,6 +51,9 @@ h1,h2,h3,h4,p{
 font-style: italic;
 line-height: 20px;
 }
+p{
+	text-align: justify;
+}
 
 h1 small{
 	color:white;
@@ -64,7 +67,7 @@ h3{
 	text-align:right;
 }
 
-h3 span.tiret:before,small:before{
+span.tiret:before{
 	content: '\2014 \00A0';
 }
 .top-img{
